@@ -1,0 +1,52 @@
+img {
+    max-width: 100%;
+  }
+
+  .giphy-item__img {
+    max-width: 100%;
+  }
+
+  .giphy-item__title {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .giphy-item {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .giphy-item__link {
+    display: flex;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .giphy-section {
+    margin: 20px;
+    display: block;
+  }
+
+  .action-content {
+    text-align: center;
+  }
+
+  .btn__load-more {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    background-color: #d77f1b;
+    text-transform: uppercase;
+    outline: none;
+  }
+
+  .btn__load-more:hover {
+    background-color: #fc8702;
+  }
