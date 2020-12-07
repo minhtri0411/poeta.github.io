@@ -28,7 +28,7 @@
 
         $.ajax({
           type: 'GET',
-          url: 'http://api.giphy.com/v1/gifs/trending',
+          url: 'https://api.giphy.com/v1/gifs/trending',
           data: {
             api_key: API_KEY,
             limit,
